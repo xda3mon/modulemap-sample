@@ -1,0 +1,14 @@
+//
+//  Unsaft.xcconfig
+//  Modulemap
+//
+//  Created by What on 2018/12/23.
+//  Copyright © 2018 dumbass. All rights reserved.
+//
+
+INFOPLIST_FILE = $(SRCROOT)/Modulemap/Supporting Files/Info.plist
+
+SWIFT_INCLUDE_PATHS = $(SRCROOT)/Modulemap
+
+HEADER_SEARCH_PATHS = $(SRCROOT)/Modulemap/lib/include/
+

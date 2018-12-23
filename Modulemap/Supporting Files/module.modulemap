@@ -1,0 +1,4 @@
+module Unsafe [system] [extern_c] {
+    header "../lib/include/unsafe-header.h"
+    export *
+}
